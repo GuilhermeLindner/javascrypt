@@ -1,0 +1,30 @@
+@charset "UTF-8 ";
+
+body{
+    font: bold arial;
+    background-color: rgb(51, 51, 224);
+}
+ h1{
+    color: white;
+    text-align: center;
+ }
+ div{
+    background-color: white;
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 350px;
+    text-align: left;
+    border-radius: 5px;
+ }
+ input{
+    margin-top: 10px;
+ }
+ footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+ }
+ 
+
