@@ -13,16 +13,17 @@
     <main>
         <section>
             <div>
-                Número (entre 1 e 100): <input type="text" size="25" id="valores"> <input type="button" id="enviar" value="enviar" onclick="contar()">
-            </div>
-            <div>
+                Número (entre 1 e 100): <input type="text" size="25" id="valores"> <input type="button" id="selecionar" value="selecionar" onclick="verificar()">
                 <select name="numeros" id="num" size="20"></select>
-                <br id="1"><input type="button" value="enviar">
+                <br><input type="button" value="enviar" id="enviar" onclick="finalizar()">
+            </div>
+            <div id="res">
+               
             </div>
         </section>
     </main>
     <footer>
-        @CursoemVídeo
+        @lindner
     </footer>
     <script src="scrypt.js"></script>
 </body>
